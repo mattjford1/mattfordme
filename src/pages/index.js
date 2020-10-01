@@ -21,8 +21,6 @@ const IndexPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
-        <script src="https://config.metomic.io/config.js?id=prj:5338d7ca-6d2a-41db-962d-53e4e0b2f6cf" crossorigin charset="utf-8"></script>
-        <script src="https://consent-manager.metomic.io/embed.js" crossorigin charset="utf-8"></script>
       </Helmet>
       <HeroHeader/>
       <h2>Blog Posts &darr;</h2>

@@ -1,10 +1,16 @@
 ---
 template: BlogPost
-path: /video-post
-date: 2020-02-20T15:05:49.332Z
-title: Post with Youtube Video embed
-thumbnail: /assets/image-1.jpg
+path: /pariti-to-be-acquired-by-tandem
+date: 2018-03-15T15:05:00.000Z
+title: Pariti to be acquired by Tandem
+thumbnail: /assets/pariti|tandem.png
 ---
-I have embedded a youtude video in this page. By adding HTML to the markdown
+This week it was announced that Pariti (subject to regulatory approval) is being acquired by**[Tandem](https://t.umblr.com/redirect?z=https%3A%2F%2Ftandem.co.uk%2F&t=ZmRjMjg4MDVjZjg3N2YxODQxZjk5ZmEyN2MwNDA5NGMyODBlMDVhZCxxTW54ZE9nSw%3D%3D&b=t%3ADtV-b61AFYjDgRwmyqJB6w&p=https%3A%2F%2Fblog.pariti.com%2Fpost%2F171895800142%2Fpariti-to-be-acquired-by-tandem&m=0)**, an all-digital ‘Good Bank’ with a mission to make customers life-rich by saving them money and time.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZZY-Ytrw2co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Over the past three years, the Pariti team has worked relentlessly to help people take control of their money, save more and pay off their debts. We’ve grown to almost 100,000 users, we’ve built a product we’re proud of, and we’ve worked with great partners such as Zopa and Lendable to deliver low cost finance. The deal with Tandem helps take us to the next level.
+
+Tandem wants to save you money to spend on the things that matter. Similar to the Pariti app, Tandem uses Artificial Intelligence to proactively show what you can afford, helping you to borrow better, budget for upcoming payments, save on bills, and avoid sneaky fees and forgotten subscriptions. Ultimately, they just want to give you more to spend on living life.
+
+Myself and Pete, our CTO, will be joining Tandem to help shape the future of the Tandem product, bringing a lot of what we’ve learned from Pariti and building on some really solid existing foundations.
+
+Here’s to the next stage of the journey…

@@ -6,7 +6,7 @@ export default (props) => (
   <nav className="navigation">
   	<Link to="/about">About</Link>
   	<Link to="/newsletter">Newsletter</Link>  
-    <Link to="">Contact</Link>
+    <a href="mailto:matt@mattford.me">Contact</a>
     <ThemeChanger/>
   </nav>
   

@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Matthew Ford</p>
+        <p>&copy; {new Date().getFullYear()} Matthew Ford. <a href="javascript:window.Metomic('ConsentManager:show')">Manage Cookies</a></p>
       </footer>
     </div>
   )

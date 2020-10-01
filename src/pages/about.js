@@ -3,7 +3,7 @@ import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 
-const NewsletterPage = ({
+const AboutPage = ({
   data: {
     site
   },
@@ -11,16 +11,16 @@ const NewsletterPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>Newsletter — {site.siteMetadata.title}</title>
-        <meta name="description" content={"Newsletter of " + site.siteMetadata.description} />
+        <title>About — {site.siteMetadata.title}</title>
+        <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
 
     </Layout>
   )
 }
-export default NewsletterPage
+export default AboutPage
 export const pageQuery = graphql`
-  query NewsletterPageQuery{
+  query AboutPageQuery{
     site {
       siteMetadata {
         title

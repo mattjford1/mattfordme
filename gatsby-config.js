@@ -3,6 +3,9 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+})
 
 module.exports = {
   /* Your site config here */
@@ -52,7 +55,15 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    `gatsby-plugin-sass`, 
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+        options: {
+            endpoint: 'https://mattford.us4.list-manage.com/subscribe/post?u=6b73908cd70c001d53f11ad97&amp;id=ad075b7260',
+            timeout: 3500,
+          },
+    },
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-dark-mode',

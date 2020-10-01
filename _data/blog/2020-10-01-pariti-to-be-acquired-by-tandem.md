@@ -1,11 +1,11 @@
 ---
 template: BlogPost
 path: /pariti-to-be-acquired-by-tandem
-date: 2018-03-15T15:05:00.000Z
+date: 2018-03-15T00:53:50.515Z
 title: Pariti to be acquired by Tandem
 thumbnail: /assets/pariti-to-tandem.png
 ---
-This week it was announced that Pariti (subject to regulatory approval) is being acquired by**[Tandem](https://tandem.co.uk)**, an all-digital ‘Good Bank’ with a mission to make customers life-rich by saving them money and time.
+This week it was announced that Pariti (subject to regulatory approval) is being acquired by **[Tandem](https://tandem.co.uk)**, an all-digital ‘Good Bank’ with a mission to make customers life-rich by saving them money and time.
 
 Over the past three years, the Pariti team has worked relentlessly to help people take control of their money, save more and pay off their debts. We’ve grown to almost 100,000 users, we’ve built a product we’re proud of, and we’ve worked with great partners such as Zopa and Lendable to deliver low cost finance. The deal with Tandem helps take us to the next level.
 

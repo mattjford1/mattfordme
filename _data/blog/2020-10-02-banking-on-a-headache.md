@@ -36,13 +36,19 @@ I’ve attempted to group different providers and solutions into six different c
 
 ![](/assets/table2.png)
 
+
+
 Still not clear? Well, let’s pull out a few examples for comparison…
+
+
 
 **How do BaaS platforms and Open Banking Platforms differ?**
 
 Banking-as-a-Service platforms deliver the underlying financial products and services (for instance, deposit taking accounts with payments in/out) to brands who incorporate this into their own offering using the BaaS platform’s license. SolarisBank for instance provide**s** the ‘checking account’ functionality for crypto-banking startup Bitwala.
 
 In comparison, Open Banking platforms allow third parties to access data from existing checking accounts at other banks and initiate payments from them. Crucially they only provide visibility and initiation of existing products, rather than create the financial products and services themselves. Truelayer for instance powers Revolut’s open banking features, which allow customers to view their other bank accounts within the Revolut app, and to initiate payments from those accounts.
+
+
 
 **Why would a company use BaaS middleware and a Sponsor Bank over a full BaaS platform?**
 
@@ -51,6 +57,8 @@ This is particularly interesting and most relevant for the US market…
 Firstly, getting a US bank charter is HARD. As a result, the banking infrastructure platforms in the US have instead largely opted for a partnering model with smaller regional US banks who can provide the products and the license. There are exceptions (incumbent BBVA’s Open Platform for instance, which utilises the existing BBVA banking charter), but the majority of platform providers have had to pursue the middleware route instead. These smaller banks do however also provide an interesting additional revenue opportunity for middleware providers. Many of these banks are hindered by a legacy banking stack and are yet to re-platform so are opting to work with BaaS middleware providers such as Treasury Prime who are building the required APIs and connections for them to more easily integrate third party vendors and fintechs.
 
 A second reason for using BaaS middleware providers plus a Sponsor Bank is revenue model: the Durbin Amendment exception for smaller banks (which allows them to charge higher interchange fees than larger banks) means that interchange is still a lucrative opportunity for fintechs and brands who issue a debit card with these smaller sponsor banks. The opportunity only exists however for banks with less than $10bn in assets, so for brands and fintechs where interchange is important, partnering with a smaller banks makes more economic sense, and the BaaS middleware providers help enable them to do this.
+
+
 
 **And so, what do we believe will be the winning model?**
 

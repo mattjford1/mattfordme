@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-import MailChimpForm from "../components/MailChimpForm"
+import EmailListForm from "../components/EmailListForm"
 
 const NewsletterPage = ({
   data: {
@@ -21,7 +21,7 @@ const NewsletterPage = ({
       <div className="hero-header">
         <div className="headline">Newsletter</div>
         <div className="primary-content"><br/>I occasionally compile interesting articles and share my thoughts on them.  Once in a blue moon, but what's the harm in joining the mailing list!</div> 
-        <MailChimpForm />      
+        <EmailListForm />      
       </div>
 
     </Layout>

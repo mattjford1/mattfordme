@@ -69,11 +69,6 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    {
-      resolve: `gatsby-plugin-metomic`,
-      options: {
-        clientId: process.env.METOMIC_CLIENT_ID,
-      },
     },
     `@contentful/rich-text-react-renderer`,
     `@contentful/rich-text-types`,

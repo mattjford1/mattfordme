@@ -1,32 +1,26 @@
 import React from "react"
-import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
-import { BLOCKS } from '@contentful/rich-text-types'
+import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import EmailListForm from "../components/EmailListForm"
 
 const NewsletterPage = ({
   data: {
-    contentfulPageContent,
+    site,
   },
 }) => {
 
-const options = {
-  renderNode: {
-    [BLOCKS.EMBEDDED_ASSET]: node => {
-      let url = node.data.target.fields.file['en-US'].url;
-      return <img className="post-image" src={'https:' + url} alt=""/>
-    }
-  },
-}
-
   return (
     <Layout>
+      <Helmet>
+        <title>{site.siteMetadata.title}</title>
+        <meta name="description" content={site.siteMetadata.description} />
+        <script src="https://config.metomic.io/config.js?id=prj:5338d7ca-6d2a-41db-962d-53e4e0b2f6cf" crossorigin charset="utf-8"></script>
+        <script src="https://consent-manager.metomic.io/embed.js" crossorigin charset="utf-8"></script>
+      </Helmet>
       <div className="hero-header">
-        <div className="headline">{contentfulPageContent.title}</div>
-        <div className="primary-content">
-          {documentToReactComponents(contentfulPageContent.bodyContent.json, options)}
-        </div> 
+        <div className="headline">Newsletter</div>
+        <div className="primary-content"><br/>I occasionally compile interesting articles and share my thoughts on them.  Once in a blue moon, but what's the harm in joining the mailing list!</div> 
         <EmailListForm />      
       </div>
 
@@ -35,13 +29,12 @@ const options = {
 }
 
 export default NewsletterPage
-
 export const pageQuery = graphql`
   query newsletterPageQuery {
-    contentfulPageContent(id: {eq: "da4b8a72-9590-5481-8785-2577b1b086f0"}) {
-      title
-      bodyContent {
-        json
+    site {
+      siteMetadata {
+        title
+        description
       }
     }
   }

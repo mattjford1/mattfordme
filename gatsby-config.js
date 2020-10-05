@@ -70,6 +70,30 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `sg5rvwjajl1u`,
+        accessToken: process.env.CONTENTFUL_DELIVERY_ACCESS_TOKEN,
+        downloadLocal: true,
+        forceFullSync: true,
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `sg5rvwjajl1u`,
+        accessToken: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN,
+        host: `preview.contentful.com`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+        options: {
+            endpoint: process.env.MAILCHIMP_ENDPOINT,
+            timeout: 3500,
+          },
+    },
+    {
       resolve: `gatsby-plugin-metomic`,
       options: {
         clientId: process.env.METOMIC_CLIENT_ID,
